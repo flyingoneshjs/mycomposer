@@ -1,9 +1,9 @@
 <?php 
 namespace jack\currency;
 
-class CurrencyService(){
+class CurrencyService{
     
     public function display($amount){
-        return '$' + . $amount;
+        return '$' . $amount;
     }
 }
